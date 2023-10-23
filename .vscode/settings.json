@@ -1,0 +1,5 @@
+{
+    "java.compile.nullAnalysis.mode": "automatic",
+    "editor.fontVariations": false,
+    "editor.fontLigatures": true
+}
