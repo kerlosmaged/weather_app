@@ -149,7 +149,19 @@ class _MyHomePageState extends State<MyHomePage> {
             );
           } else {
             return const Center(
-              child: Text("Opps we have an error, please try again later"),
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  Text(
+                    "Opps this is Country don't found, please try ",
+                    style: TextStyle(fontWeight: FontWeight.w700, fontSize: 18),
+                  ),
+                  Text(
+                    "again with another name",
+                    style: TextStyle(fontWeight: FontWeight.w700, fontSize: 18),
+                  ),
+                ],
+              ),
             );
           }
         },
